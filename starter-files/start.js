@@ -1,6 +1,6 @@
 require('./models/Store'); 
 const mongoose = require('mongoose');
-const Store = mongoose.model('Store');
+// const Store = mongoose.model('Store');
 
 // Make sure we are running node 7.6+
 const [major, minor] = process.versions.node.split('.').map(parseFloat);
